@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Cor rosa */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #e91e63; /* Cor rosa mais escura */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #e91e63; /* Cor rosa mais escura */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff4081; /* Cor rosa mais clara ao passar o mouse */
+  }
+  
+  footer {
+    background-color: #e91e63; /* Cor rosa mais escura */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Salão de Beleza</title>
+</head>
+<body>
+  <header>
+    <h1>Salão de Beleza</h1>
+  </header>
+
+  <section class="comprar-produtos">
+    <h2>Comprar Produtos</h2>
+    <!-- Adicione os detalhes para comprar produtos aqui -->
+  </section>
+
+  
+
+<section class="agendar-servico">
+  <h2>Agendar Serviço</h2>
+  <form id="agendamentoForm">
+    <label for="data">Data:</label>
+    <select id="data" required>
+      <option value="2023-01-01">01 de Janeiro de 2023</option>
+      <option value="2023-01-15">15 de Janeiro de 2023</option>
+      <option value="2023-02-01">01 de Fevereiro de 2023</option>
+      <!-- Adicione mais opções de data conforme necessário -->
+    </select>
+<br>
+    <label for="hora">Hora:</label>
+    <select id="hora" required>
+      <option value="09:00">09:00</option>
+      <option value="10:00">10:00</option>
+      <option value="11:00">11:00</option>
+      <!-- Adicione mais opções de horário conforme necessário -->
+    </select>
+
+    <button type="button" onclick="enviarMensagem()">Agendar</button>
+  </form>
+</section>
+
+<!-- ... (o restante do código permanece inalterado) ... -->
+
+  <footer>
+    <p>&copy; 2023 Estabelecimento teste</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
